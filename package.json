@@ -1,0 +1,31 @@
+{
+  "name": "class10edu",
+  "version": "1.0.0",
+  "description": "Class 10 CBSE NCERT Learning App",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site ready'",
+    "sync": "npx cap sync",
+    "android": "npx cap open android",
+    "build:android": "npx cap copy android && cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/core": "^5.0.0",
+    "@capacitor/splash-screen": "^5.0.0",
+    "@capacitor/status-bar": "^5.0.0",
+    "@capacitor/share": "^5.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.0.0"
+  },
+  "keywords": [
+    "education",
+    "cbse",
+    "class10",
+    "ncert",
+    "learning"
+  ],
+  "author": "Class 10Edu Team",
+  "license": "MIT"
+}
